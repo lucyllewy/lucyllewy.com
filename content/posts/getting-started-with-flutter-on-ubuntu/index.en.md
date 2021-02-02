@@ -7,7 +7,7 @@ categories: [ ubuntu-snapcraft, development ]
 
 Recently there was an announcement from Ubuntu that the desktop team are working on a [replacement for the Ubiquity installer](https://discourse.ubuntu.com/t/refreshing-the-ubuntu-desktop-installer/20659). The really interesting part of the post by Martin Wimpress, head of the Ubuntu Desktop team at Canonical, is that the new installer will be built using Flutter.
 
-Flutter is a cross-platform User Interface framework that can target Linux, macOS, Windows, Android, and iOS all from the same source code. I have been aware of Flutter for some time now but have been trepidatious in jumping in to sample the water, because I am completely unfamilier with the Dart programming language and was worried about making the time investment.
+[Flutter](https://flutter.dev) is a cross-platform User Interface framework that can target Linux, macOS, Windows, Android, and iOS all from the same source code. I have been aware of Flutter for some time now but have been trepidatious in jumping in to sample the water, because I am completely unfamilier with the Dart programming language and was worried about making the time investment.
 
 With the news from Ubuntu I decided that now is a good time to get my feet wet and find out what this new shiny is all about. To that end, I have been installed Flutter and managed to get the sample application running on Ubuntu! There were a few gotchas, however, so below I've summarised the important steps to get a fully functional toolchain set up:
 
