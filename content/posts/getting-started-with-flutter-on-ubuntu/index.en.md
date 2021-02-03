@@ -9,7 +9,7 @@ Recently there was an announcement from Ubuntu that the desktop team are working
 
 [Flutter](https://flutter.dev) is a cross-platform User Interface framework that can target Linux, macOS, Windows, Android, and iOS all from the same source code. I have been aware of Flutter for some time now but have been trepidatious in jumping in to sample the water, because I am completely unfamilier with the Dart programming language and was worried about making the time investment.
 
-With the news from Ubuntu I decided that now is a good time to get my feet wet and find out what this new shiny is all about. To that end, I have been installed Flutter and managed to get the sample application running on Ubuntu! There were a few gotchas, however, so below I've summarised the important steps to get a fully functional toolchain set up:
+With the news from Ubuntu I decided that now is a good time to get my feet wet and find out what this new shiny is all about. To that end, I have installed Flutter and managed to get the sample application running on Ubuntu! There were a few gotchas, however, so below I've summarised the important steps to get a fully functional toolchain set up:
 
 ## Installing Flutter
 
@@ -156,3 +156,5 @@ The debugging web page looks like this:
 ## Wrap up
 
 In this post, I showed how to install and configure Flutter and the Android toolchain, without hitting the issues that I encountered myself. I also showed creating and debugging a sample Flutter app, and enabling the toolchain for Linux, macOS, and Windows desktop apps.
+
+Now we, you and I, just need to learn Dart and the Flutter APIs and create something amazing! Good luck...
