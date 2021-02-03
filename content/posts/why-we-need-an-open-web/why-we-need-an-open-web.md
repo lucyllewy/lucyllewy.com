@@ -1,0 +1,15 @@
+---
+title: "Why we need an open web.."
+date: 2010-07-10 23:12:39
+published: true
+categories: [random]
+wpid: 706
+---
+
+As an active, but not necessarily keen, participant in the facebook and twitter social networking craze I feel that more should be done to allow me to have control over my OWN data. Why should I give up full control over, essentially, who I am as a person and who I like to be with socially, to one all-encompussing do-no-evil company? It's not just Google who want all knowledge about myself to be under their control, we increasingly see it with facebook. And it's both of these organisations with their respective privacy failures that show us why we need a new way. It is for this reason, privacy concerns, that I'm not necessarily keen on the idea of Facebook and their like (or koobcafe as I like to refer to the concept). What we need is a way of controlling our own information and only letting slip that with which we know we are doing so.
+
+What we need is a "home" for all our information on the "web". Or a "WebHome"? Many people are toying with the idea of an "open" social network such as the Diaspora guys who got record funding to work over the summer from us mere mortals over at kickstarter.com. But the idea wasn't theirs to begin with, others have already been trying to create this open social network but received very little, if any, press coverage. However, we don't need any of these open social networks, because the social network already exists in the form of the Internet. All it requires is for someone to tie the ideas together into a coherent blob that people can use to share their data with. I'm talking concepts that already exist such as OpenId, OAuth, PubSubHubbub and RSS. We just need someone, anyone, to put their foot down and make a defiant stand against the giant corporations and say "You're doing it wrong!"
+
+And, before you say that we can't do that, someone already has started putting their toes in the water. Yes we have this champion. A small Australian outfit that has been in the social network software business for 10 years called [Boonex (www.boonex.com)](https://www.boonex.com) to be exact. They have put together a package of $200,000 funding for R&D into the idea of this "WebHome" that anyone can create with any internet connected computer. Just take a gander at [www.webhome.org](https://www.webhome.org) and see some (linked) sites that are already bucking the all-encompussing trend to begin the tentative steps of childhood in the big bad world of predators called Facebook, Twitter and Google.
+
+I emplore all readers to turn their WordPress blog into their very own WebHome and stick their tongue out at the world that will soon be following suit out of neccessity. Yes, WebHomes are here to stay, and you heard it here first. Spread the world, get your friends on board and for heavens' sake stop being corporate rag-dolls. You can make a stand. You WILL make a stand. And together we will make for a better, more connected, future where the individual has the power to say "No, I don't want my personality sold on anymore!"

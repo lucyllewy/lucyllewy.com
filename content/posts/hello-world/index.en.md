@@ -1,8 +1,8 @@
 ---
 title: "Hello World"
-description: ""
+aliases: [/2021/01/hello-world]
 date: 2021-01-18T17:18:12Z
-draft: false
+published: true
 ---
 
 Here we go with the obligatory Hello World post for my new shiny blog!

@@ -1,0 +1,274 @@
+diff -Npr fotobook/fotobook.php fotobook copy/fotobook.php
+*** fotobook/fotobook.php	2008-11-21 07:07:06.000000000 +0000
+--- fotobook copy/fotobook.php	2008-11-23 21:51:19.000000000 +0000
+*************** function fb_get_photo_link($photo)  { //
+*** 848,853 ****
+--- 848,854 ----
+    $photos_per_page = $number_cols * $number_rows;
+    $album_p = $photos_per_page != 0 ? floor(($photo['ordinal']+1) / $photos_per_page)+1 : 1;
+    switch (get_option('fb_style')) {
++     case 'thickbox':
+      case 'lightbox':
+        $page_link .= strstr($page_link, '?') ? '&' : '?';
+        $page_link .= 'album_p='.$album_p;
+*************** function fb_display_album($content, $pag
+*** 1056,1066 ****
+    // add hidden links for all images before so that next and previous
+    // buttons in lightbox will display these images as well
+    $hidden_top = ''; $hidden_bottom = '';
+!   for($i = 1; $i <= $first_photo; $i++) {
+!     $hidden_top .= "<a href=\"{$photos[$i]['src_big']}\" rel=\"lightbox[fotobook]\" title=\"{$photos[$i]['caption']}\"></a>";
+    }
+    for($i = $last_photo+1; $i <= $photo_count; $i++) {
+!     $hidden_bottom .= "<a href=\"{$photos[$i]['src_big']}\" rel=\"lightbox[fotobook]\" title=\"{$photos[$i]['caption']}\"></a>";
+    }
+    
+    // now get rid of all photos in the array that aren't displayed on this page
+--- 1057,1075 ----
+    // add hidden links for all images before so that next and previous
+    // buttons in lightbox will display these images as well
+    $hidden_top = ''; $hidden_bottom = '';
+!   $renderstyle = get_option('fb_style');
+!     // NOTE: prevent multiple database queries by storing the value programatically above (1 db query instead of 2).
+!   for($i = 1; $i < $first_photo; $i++) { // FIXED by Fremen (diddledan): was showing $first_photo here (invisible) _and_ in the visible listing
+!     $hidden_top .= "<a href=\"{$photos[$i]['src_big']}\" ";
+!       // NOTE: below sets thickbox style as an option, defaulting to the original lightbox method
+!     $hidden_top .= (($renderstyle == 'thickbox') ? "rel=\"thickboxfotobook\" class=\"thickbox\"" : "rel=\"lightbox[fotobook]\"");
+!     $hidden_top .= " title=\"{$photos[$i]['caption']}\"></a>";
+    }
+    for($i = $last_photo+1; $i <= $photo_count; $i++) {
+!     $hidden_bottom .= "<a href=\"{$photos[$i]['src_big']}\" ";
+!       // NOTE: below sets thickbox style as an option, defaulting to the original lightbox method
+!     $hidden_bottom .= (($renderstyle == 'thickbox') ? "rel=\"thickboxfotobook\" class=\"thickbox\"" : "rel=\"lightbox[fotobook]\"");
+!     $hidden_bottom .= " title=\"{$photos[$i]['caption']}\"></a>";
+    }
+    
+    // now get rid of all photos in the array that aren't displayed on this page
+diff -Npr fotobook/styles/thickbox/album.php fotobook copy/styles/thickbox/album.php
+*** fotobook/styles/thickbox/album.php	1970-01-01 01:00:00.000000000 +0100
+--- fotobook copy/styles/thickbox/album.php	2008-11-23 21:27:56.000000000 +0000
+***************
+*** 0 ****
+--- 1,55 ----
++ <?php // DISPLAY PAGINATION AND LINK BACK TO MAIN PAGE ?>
++ 
++ <div class="fotobook-subheader">
++   <span class='main'>Photos <?php echo ($first_photo)." - ".($last_photo) ?> out of <?php echo $photo_count ?> | <a href='<?php echo $albums_page_link ?>'>Back to Albums</a></span>
++   <div class='pagination'>
++     <?php if($prev_link): ?><a href='<?php echo $prev_link ?>'>Prev</a><?php endif; ?>
++     <?php echo $pagination ?>
++     <?php if($next_link): ?><a href='<?php echo $next_link ?>'>Next</a><?php endif; ?>
++   </div>
++ </div>
++ 
++ <?php // BUILD THE PHOTO TABLE ?>
++ 
++ <table id="fotobook-album">
++   <tr>
++     <?php foreach($photos as $key=>$photo): ?>
++     <td>
++       <a href='<?php echo $photo['src_big'] ?>' rel="thickboxfotobook" class="thickbox" title="<?php echo $photo['caption'] ?>" id="photo<?php echo $photo['ordinal'] ?>" target='_blank'>
++         <img src='<?php echo $photo['src'] ?>' alt="<?php echo $photo['caption'] ?>" style='max-width: <?php echo $thumb_size ?>px; max-height: <?php echo $thumb_size ?>px; _width: expression(this.width > <?php echo $thumb_size ?> ? <?php echo $thumb_size ?> : true); _height: expression(this.height > <?php echo $thumb_size ?> ? <?php echo $thumb_size ?>: true);' />
++       </a>
++     </td>
++     <?php
++     if($key % $number_cols == 0) echo '</tr><tr>';
++     endforeach;
++     for($i = 0; $i < ($number_cols - (count($photos) % $number_cols)); $i++) {
++       echo "<td>&nbsp;</td>";
++     }
++     ?>
++   </tr>      
++ </table>
++ 
++ <div class="fotobook-subheader fotobook-subheader-bottom">
++   <span class='main'>Photos <?php echo ($first_photo)." - ".($last_photo) ?> out of <?php echo $photo_count ?> | <a href='<?php echo $albums_page_link ?>'>Back to Albums</a></span>
++   <div class='pagination'>
++     <?php if($prev_link): ?><a href='<?php echo $prev_link ?>'>Prev</a><?php endif; ?>
++     <?php echo $pagination ?>
++     <?php if($next_link): ?><a href='<?php echo $next_link ?>'>Next</a><?php endif; ?>
++   </div>
++ </div>
++ 
++ <?php // DISPLAY THE ALBUM INFO  ?>
++ <table id="fotobook-info">
++ <?php if($description): ?>
++   <tr>
++     <th>Description:</th>
++     <td><?php echo $description ?></td>
++   </tr>
++ <?php endif; ?>
++ <?php if($location): ?>
++   <tr>
++     <th>Location:</th>
++     <td><?php echo $location ?></td>
++   </tr>
++ <?php endif; ?>
++ </table>
+\ No newline at end of file
+diff -Npr fotobook/styles/thickbox/main.php fotobook copy/styles/thickbox/main.php
+*** fotobook/styles/thickbox/main.php	1970-01-01 01:00:00.000000000 +0100
+--- fotobook copy/styles/thickbox/main.php	2008-11-11 22:53:00.000000000 +0000
+***************
+*** 0 ****
+--- 1,38 ----
++ <div class="fotobook-subheader">
++   <span class='main'>Albums <?php echo $first_album ?> - <?php echo $last_album ?> out of <?php echo $album_count ?></span>
++   <div class='pagination'>
++     <?php if($prev_link): ?><a href='<?php echo $prev_link ?>'>Prev</a><?php endif; ?>
++     <?php echo $pagination ?>
++     <?php if($next_link): ?><a href='<?php echo $next_link ?>'>Next</a><?php endif; ?>
++   </div>
++ </div>
++ 
++ <table id="fotobook-main">
++ <?php
++ if(sizeof($albums) > 0):
++ foreach($albums as $album):
++ ?>
++   <tr>
++     <th>
++       <a href="<?php echo $album['link'] ?>"><img src="<?php echo $album['thumb'] ?>" alt="<?php echo $album['name'] ?>" /></a>
++     </th>
++     <td>
++       <a href='<?php echo  $album['link'] ?>'><?php echo $album['name']; ?></a><br />
++       <?php if($album['description'] != ''): echo $album['description'] ?><br /><?php endif; ?>
++       <small><?php echo $album['size'] ?> photos</small>
++     </td>
++   </tr>
++ <?php 
++ endforeach; 
++ endif;
++ ?>
++ </table>
++ 
++ <div class="fotobook-subheader fotobook-subheader-bottom">
++   <span class='main'>Albums <?php echo $first_album ?> - <?php echo $last_album ?> out of <?php echo $album_count ?></span>
++   <div class='pagination'>
++     <?php if($prev_link): ?><a href='<?php echo $prev_link ?>'>Prev</a><?php endif; ?>
++     <?php echo $pagination ?>
++     <?php if($next_link): ?><a href='<?php echo $next_link ?>'>Next</a><?php endif; ?>
++   </div>
++ </div>
+\ No newline at end of file
+diff -Npr fotobook/styles/thickbox/style.css fotobook copy/styles/thickbox/style.css
+*** fotobook/styles/thickbox/style.css	1970-01-01 01:00:00.000000000 +0100
+--- fotobook copy/styles/thickbox/style.css	2008-11-12 15:22:00.000000000 +0000
+***************
+*** 0 ****
+--- 1,114 ----
++ #fotobook-main a {
++   font-weight: bold;
++   font-size: 12px;
++ }
++ 
++ #fotobook-main {
++   font-size: 11px;
++   width: 100%;
++   border-spacing: 0;
++ }
++ 
++ #fotobook-main img {
++   border: 0;
++ }
++ 
++ #fotobook-main small {
++   font-size: 10px;
++ }
++ 
++ #fotobook-main td, #fotobook-main th {
++   border-bottom: solid 1px #D8DFEA;  
++   margin: 0px; padding: 10px;
++   vertical-align: middle;
++ }
++ 
++ #fotobook-main th {
++   text-align: center;
++   width: 130px;
++ }
++ 
++ #fotobook-album {
++   margin: 0px;
++   padding: 5px;
++   width: 100%;
++   border-bottom: solid 1px #D8DFEA;
++ }
++ 
++ #fotobook-album td {
++   width: 150px;
++   padding: 3px 2px;
++   text-align: center;
++   vertical-align: middle; }
++ 
++ #fotobook-album img {
++   background: white;
++   padding: 6px;
++   border: solid 1px #ccc; }
++ 
++ #fotobook-album img:hover {
++   border: solid 1px #3B5998; }
++   
++ #fotobook-info {
++   font-size: 10px;
++   margin-top: 10px;
++   text-align: left;
++ }
++ 
++ #fotobook-info th, #fotobook-info td {
++   padding: 3px;
++ }
++ 
++ #fotobook-info th {
++   font-weight: bold;
++   vertical-align: top;
++ }
++ 
++ .fotobook-subheader {
++   text-align: right;
++   font-size: 11px;
++   margin: 0px;
++   padding: 3px 10px 4px;
++   border-bottom: solid 1px #D8DFEA;
++ }
++ 
++ .fotobook-subheader .main {
++   float: left;
++   text-align: left;
++ }
++ 
++ .fotobook-subheader .pagination {
++   padding-left: 4px;
++   text-align: right; 
++ }
++ 
++ .fotobook-subheader .pagination b {
++   padding: 2px;
++   font-style: normal;
++   font-weight: bold;
++   color: #3B5998;
++   border-bottom: solid 2px;
++ }
++ 
++ .fotobook-subheader .pagination a {
++   font-weight: normal;
++   margin: 0px;
++   padding: 3px 3px; 
++ }
++ 
++ .fotobook-subheader .pagination a:hover {
++   color: white;
++   margin: 0px;
++   padding: 3px 3px;
++   background: #3B5998; 
++   text-decoration: none;
++ }
++ 
++ .fotobook-subheader-bottom {
++   border-bottom: 0;
++ }
++ 
++ .fotobook-subheader-bottom .pagination b {
++   border-bottom: 0;
++   border-top: solid 2px;
++ }
+\ No newline at end of file

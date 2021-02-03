@@ -1,0 +1,77 @@
+<?php
+
+add_filter ( 'xmlrpc_methods', 'attach_fremen_xmlrpc' );
+function attach_fremen_xmlrpc($methods) {
+	$methods['blogger.getUsersBlogs'] = 'fremen_blogger_getUsersBlogs';
+	return $methods;
+}
+function fremen_blogger_getUsersBlogs($args) {
+	// this is all taken from wp_getUsersBlogs() from xmlrpc.php
+	global $current_site, $wpdb;
+	
+	// If this isn't on WPMU then just use blogger_getUsersBlogs
+	if( !function_exists( 'is_site_admin' ) ) {
+		array_unshift( $args, 1 );
+		return $this->blogger_getUsersBlogs( $args );
+	}
+
+	// function 'escape()' taken from xmlrpc.php
+	function escape($array) {
+		if(!is_array($array)) {
+			return($wpdb->escape($array));
+		}
+		else {
+			foreach ( (array) $args as $k => $v ) {
+				if (is_array($v)) {
+					$this->escape($array[$k]);
+				} else if (is_object($v)) {
+					//skip
+				} else {
+					$array[$k] = escape($v);
+				}
+			}
+		}
+	}
+	// end function 'escape()'
+	escape($args);
+
+	$username = $args[1];
+	$password = $args[2];
+
+	if ( !get_option( 'enable_xmlrpc' ) ) {
+		return new IXR_Error( 405, sprintf( __( 'XML-RPC services are disabled on this blog.  An admin user can enable them at %s'),  admin_url('options-writing.php') ) );
+	}
+	if (!user_pass_ok($username, $password)) {
+		return new IXR_Error(403, __('Bad login/pass combination.'));
+	}
+
+	do_action( 'xmlrpc_call', 'blogger.getUsersBlogs' );
+
+	$user = set_current_user( 0, $username );
+
+	$blogs = (array) get_blogs_of_user( $user->ID );
+	$struct = array( );
+
+	foreach( $blogs as $blog ) {
+		// Don't include blogs that aren't hosted at this site
+		if( $blog->site_id != $current_site->id )
+			continue;
+
+		$blog_id = $blog->userblog_id;
+		switch_to_blog($blog_id);
+		$is_admin = current_user_can('level_8');
+
+		$struct[] = array(
+			'isAdmin'		=> $is_admin,
+			'url'			=> get_option( 'home' ) . '/',
+			'blogid'		=> $blog_id,
+			'blogName'		=> get_option( 'blogname' ),
+			'xmlrpc'		=> get_option( 'home' ) . '/xmlrpc.php'
+		);
+
+		restore_current_blog( );
+	}
+
+	return $struct;
+}
+?>

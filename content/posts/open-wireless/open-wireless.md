@@ -1,0 +1,22 @@
+---
+title: "Open Wireless"
+date: 2015-10-27 21:09:23
+published: true
+categories: [random]
+wpid: 806
+---
+
+I along with countless others have opened a wireless network to allow strangers access via an internet connection that I pay for. I charge a modest amount which helps towards my internet charges (but doesn't completely negate them), but primarily it's open to allow others access when they would ordinarily be unable such as due to a problem on their line.
+
+However, my comment today is about an exciting new effort from the the [Electronic Frontier Foundation, which has published a call-to-arms](https://www.eff.org/deeplinks/2011/04/open-wireless-movement) over the short-term goal of getting more networks to open a portion of their bandwidth to passers-by, and the long-term goal of creating a new wireless standard that allows for encrypted communications over free wireless networks. (Free referring to the freedom to connect.) The crux of this issue is the need for a new standard that allows anybody to connect to a specified [Wireless network](https://en.wikipedia.org/wiki/Wireless_network "Wireless network") while still maintaining complete security via encryption methodologies.
+
+The idea is to allow each third-party to connect to the network but be unable to see the communications of other third-parties. One example way of achieving this exampled by the EFF Article uses the [SSH](https://en.wikipedia.org/wiki/Secure_Shell "Secure Shell") protocol as it's inspiration, which allows for one [security certificate](https://en.wikipedia.org/wiki/Security_certificate "Security certificate") to create multiple session [encryption keys](https://en.wikipedia.org/wiki/Encryption "Encryption") which are then used by the user. Also in this scheme is the "Trust-On-First-Use" paradigm which prompts the user when they first connect to the station to accept the security certificate and to then use that as the basis for future un-prompted communication. If the certificate ever changes then the user knows with a high degree of accuracy that either: the network has changed somehow (e.g. by changing the connected station), or the connection has just been intercepted by a Man-in-the-Middle (MitM) beginning an attack, or that a previous [MitM attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack "Man-in-the-middle attack") has just ended.
+
+If I could allow my network's users to connect in a more secure manner then I would do so. However, as this proposed protocol is only at the planning stage at the moment, and there is no guarantee that a wireless working group would accept the protocol for a future standard, then I cannot easily allow encrypted communication via my wireless stations. Ideally the [Captive Portal](https://en.wikipedia.org/wiki/Captive_portal "Captive portal") suites such as CoovaChilli should provide a means to utilise 802.11x for [RADIUS](https://en.wikipedia.org/wiki/RADIUS "RADIUS")-backed encryption for a user once they have a valid credential for the network. Especially as CoovaChilli and others are backed by RADIUS anyway.
+
+Another related issue, however, is that supposedly I may become liable for my users' mis-behaviour on the internet via my connection. Technically, I'm an individual on a residential connection and therefore I am not allowed to resell access. This puts me at odds with my [ISP's](https://en.wikipedia.org/wiki/Internet_service_provider "Internet service provider") T&Cs. Also, while I am technically on a residential connection am I able to claim that I am an ISP to my clients? This puts me at odds with the legal system. My position is that I am an ISP in the sense that yes I do provide an internet service to users of my network; I also state that I am not technically reselling my connection, I am selling my firewalling of the user from internet nasties and then providing free internet access on the back of that without resale.
+
+## Related articles
+
+- [Why we need an Open Wireless movement](https://www.eff.org/deeplinks/2011/04/open-wireless-movement) (eff.org)
+- [Lock Down Your Wi-Fi or the FBI Might Come Knocking](https://www.pcworld.com/article/226181/lock_down_your_wifi_or_the_fbi_might_come_knocking.html) (pcworld.com)
