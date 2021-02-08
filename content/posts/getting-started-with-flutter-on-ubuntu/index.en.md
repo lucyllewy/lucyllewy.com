@@ -102,9 +102,11 @@ Doctor summary (to see all details, run flutter doctor -v):
 Create a new directory to hold our sample app. Run:
 
 ```bash
-mkdir flutter-example
-cd flutter-example
+mkdir flutter_example
+cd flutter_example
 ```
+
+The name used for the folder is also used by Dart to form the package ID. Unfortunately, that means we can only use alphanumeric characters and the underscore character. Dots, hyphens, and spaces should be avoided.
 
 Now we must create the app structure. Run:
 
