@@ -12,9 +12,7 @@ wpid: 10749
 
 In a post by Benjamin Elder there is a really nice proof-of-concept app. This app is based on the Bodypix.js AI/ML library. Ben's article about their [Open Source Virtual Background](https://elder.dev/posts/open-source-virtual-background/) explains the inner workings. Using Ben's code, I created a [Snap Package called Fakecam](https://snapstats.org/snaps/fakecam). I also include a nice User Interface, which allows easy configuration of the options.
 
-<p style="text-align: center">
-<img src="/wp-content/uploads/2020/06/image.png" alt="Screenshot of Fakecam user interface">
-</p>
+![Screenshot of Fakecam user interface](/wp-content/uploads/2020/06/image.png)
 
 Performance issues
 ------------------

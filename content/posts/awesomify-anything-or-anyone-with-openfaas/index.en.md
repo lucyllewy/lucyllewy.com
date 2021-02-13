@@ -3,7 +3,7 @@ title: "Awesomify anything or anyone with OpenFaaS!"
 date: 2019-01-17 17:54:23
 published: true
 categories: [development]
-tags: [openfaas, awesome]
+tags: [openfaas, awesome, serverless]
 wpid: 10447
 ---
 
