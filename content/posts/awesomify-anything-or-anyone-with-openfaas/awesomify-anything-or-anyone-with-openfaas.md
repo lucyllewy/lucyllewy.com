@@ -9,9 +9,9 @@ wpid: 10447
 
 While I've been lurking about the [OpenFaaS](https://www.openfaas.com/) Community I haven't really had the wherewithal to actually get myself knuckled-down to build something that might be classed as useful or fun. To remedy that I finally came up with a new idea for a function that I can publish into the FaaS Store. I'm calling this function "Awesomify". It will take any text you throw at it and make it awesome!
 
-![](https://cdn-images-1.medium.com/max/600/0*0lDCxFONjNBME1nz)
+![A photo of a sign pointing to 'awesome' on the right, and 'less awesome' on the left](jon-tyson-unknown.jpg)
 
-Photo by [Jon Tyson](https://unsplash.com/@jontyson?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+Photo by [Jon Tyson](https://unsplash.com/@jontyson) on [Unsplash](https://unsplash.com)
 
 First thing I need is a [Kubernetes](https://kubernetes.io/) cluster. After a quick trip down to [Marks and Sparks](https://www.marksandspencer.com/) to fill my trolly with juicy servers, I remembered that this is supposed to be serverless computing, plus M&S is a clothing store so I wouldn't get servers there anyway. Putting the servers back on the shelves I instead fired up [Google Cloud](https://cloud.google.com/)'s dashboard and ordered some Kubernetes with a side order of Chips (Fries for folk over the pond).
 
@@ -22,9 +22,9 @@ The function
 
 Now to my function. Which language or framework should I use to build it? [NodeJS](https://nodejs.org/)? Pass. [Go](https://golang.org/)? Hmm, interesting idea, but nah. [BASH](https://tiswww.case.edu/php/chet/bash/bashtop.html)? Now you're talking; you can't get more esoteric than that! Let's write an entire function using BASH...
 
-![](https://cdn-images-1.medium.com/max/800/0*iGGVDYzLLl6E13uR)
+![Photo of a laptop showing a text editor with computer source code](luca-bravo-XJXWbfSo2f0-unsplash.jpg)
 
-Photo by [Luca Bravo](https://unsplash.com/@lucabravo?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+Photo by [Luca Bravo](https://unsplash.com/@lucabravo) on [Unsplash](https://unsplash.com)
 
 For my function to work, I need some sound clips. So pulling out my scissors I found a cassette of Tegan and Sara's greatest hits and started hacking away. After 36 hours of toil, I finally had a series of clips that are usable and a large pile of wasted audio tape.
 
@@ -34,9 +34,9 @@ The only thing missing now is a voice generator. While I could use a cloudy serv
 
 With the function taking shape I felt ready to publish a trial run onto my test cluster on Google Cloud. Two hours after publishing it and tweeting a few times the function has been hit 396 times and nobody has complained since I increased the timeouts and minimum instance count from their defaults.
 
-![](https://cdn-images-1.medium.com/max/600/0*qkixKla9SdQ5zBcI)
+![Photo of an athlete getting ready to run in a sprint race](william-stitt-unknown.jpg)
 
-Photo by [William Stitt](https://unsplash.com/@willpower?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+Photo by [William Stitt](https://unsplash.com/@willpower) on [Unsplash](https://unsplash.com)
 
 And we're off to the races!
 ---------------------------
