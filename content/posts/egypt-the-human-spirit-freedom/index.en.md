@@ -1,5 +1,5 @@
 ---
-title: "Egypt, the Human Spirit &amp;#038; Freedom."
+title: "Egypt, the Human Spirit & Freedom."
 date: 2015-10-27 21:09:23
 published: true
 categories: [random]

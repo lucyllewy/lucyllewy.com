@@ -1,5 +1,5 @@
 ---
-title: "First post using xmlrpc: &amp;#8220;how I fixed a bug..&amp;#8221;"
+title: "First post using xmlrpc: 'how I fixed a bug..'"
 date: 2015-10-27 21:09:23
 published: true
 categories: [random, WordPress]

@@ -1,5 +1,5 @@
 ---
-title: "That age old problem of metric vs imperial&amp;#8230;"
+title: "That age old problem of metric vs imperial..."
 date: 2015-10-27 21:09:23
 published: true
 categories: [random]

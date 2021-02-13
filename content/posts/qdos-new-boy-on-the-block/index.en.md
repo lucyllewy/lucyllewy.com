@@ -1,5 +1,5 @@
 ---
-title: "QDos &amp;#8211; New boy on the block"
+title: "QDos - New boy on the block"
 date: 2015-10-27 21:09:23
 published: true
 categories: [random]

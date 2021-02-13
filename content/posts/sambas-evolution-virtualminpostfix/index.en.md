@@ -1,5 +1,5 @@
 ---
-title: "Samba's Evolution &amp;#038; Virtualmin/Postfix"
+title: "Samba's Evolution & Virtualmin/Postfix"
 date: 2014-06-19 02:37:50
 published: true
 categories: [sysadmin]

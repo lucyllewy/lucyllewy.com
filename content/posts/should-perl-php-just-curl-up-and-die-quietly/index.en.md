@@ -1,5 +1,5 @@
 ---
-title: "Should Perl &amp;#038; PHP just curl up and die quietly?"
+title: "Should Perl & PHP just curl up and die quietly?"
 date: 2015-10-27 21:09:23
 published: true
 categories: [development]

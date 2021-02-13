@@ -1,5 +1,5 @@
 ---
-title: "Eric S. Raymond&amp;#8217;s Opinion on the GPL"
+title: "Eric S. Raymond's Opinion on the GPL"
 date: 2015-10-27 21:09:23
 published: true
 categories: [development]
