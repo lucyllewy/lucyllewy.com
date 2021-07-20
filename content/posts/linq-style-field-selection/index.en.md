@@ -1,5 +1,5 @@
 ---
-title: "Linq Style Field Selection"
+title: "LINQ Style Field Selection"
 date: 2021-07-20T17:12:39+01:00
 draft: false
 categories: [csharp, .net, programming]
@@ -20,7 +20,7 @@ Here we see that you pass a lambda function `t => t.name` that accepts a single 
 Now, as part of my writing the SQL queries that back my C#-based GraphQL API I desired the ability to use this pattern myself to make the queries more dynamic. Originally I managed to do this in a less desirable way, that required my lambdas to return a `nameof()` instead of the original field. This was due to the fact that once you've returned the field to the calling method it no longer has the same `nameof()` because it's now saved into a different variable name. This looked like below on the calling side:
 
 ```csharp
-context.ToSqlOrderedQuerySpec<Snap>(o => typoeof(o.name))
+context.ToSqlOrderedQuerySpec<Snap>(o => nameof(o.name))
 ```
 
 And the `ToSqlOrderedQuerySpec()` method looked similar to:
