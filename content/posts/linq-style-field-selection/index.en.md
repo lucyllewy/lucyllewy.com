@@ -95,3 +95,5 @@ context.ToSqlOrderedQuerySpec<Snap>(o => o.name)
 ```
 
 As you can see above, I have achieved the target of LINQ-style field selection for my own SQL generation routines. This allows me complete control of SQL generation without deferring to LINQ-to-SQL, which can sometimes create suboptimal queries.
+
+My Work-in-progress Snapstats site coded in C#, using this pattern, is available temporarily at [https://snapstats.azurewebsites.net/](https://snapstats.azurewebsites.net/).
