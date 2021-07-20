@@ -1,5 +1,5 @@
 ---
-title: "LINQ Style Field Selection"
+title: "LINQ-style Field Selection"
 date: 2021-07-20T17:12:39+01:00
 draft: false
 categories: [csharp, .net, programming]
