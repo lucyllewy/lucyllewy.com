@@ -2,7 +2,7 @@
 title: "Linq Style Field Selection"
 date: 2021-07-20T17:12:39+01:00
 draft: false
-categories: [c#, programming]
+categories: [csharp, .net, programming]
 ---
 
 I've been toying with rewriting my [Snapstats](https://snapstats.org) website to C# and .NET. The site tracks the public Snap Store to aggregate and make data about Snaps easily available.
