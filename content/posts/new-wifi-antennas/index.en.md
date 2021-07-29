@@ -20,7 +20,7 @@ _The following is not an actual quote but my own musings on IPv6 which don't fit
 >
 > In fact, [wiki says](https://en.wikipedia.org/wiki/IPv6): "In another perspective, this is the same number of .. addresses per person as the number of atoms in a metric ton of carbon.", but that's wiki, so it could be wrong.
 > 
-> <cite>Daniel Llewellyn</cite>
+> <cite>Dani Llewellyn</cite>
 
 Edit: The new antennas are now installed and appear to be operational.
 

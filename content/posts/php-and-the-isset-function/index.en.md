@@ -21,4 +21,4 @@ So, my advice to newbies in the field of PHP programming is:
 > 
 > A simple check for the correct value doesn't eat too many computer cycles, so it is better that you put checks in place, and use up a couple of milliseconds, rather than tear your hair out for days trying to work out why it's not working.
 > 
-> <cite>Daniel Llewellyn</cite>
+> <cite>Dani Llewellyn</cite>

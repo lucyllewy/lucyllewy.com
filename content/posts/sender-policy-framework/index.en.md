@@ -1,7 +1,7 @@
 ---
 title: "Sender Policy Framework"
 date: 2015-10-27 21:09:23
-published: true
+published: false
 categories: [sysadmin]
 wpid: 781
 ---

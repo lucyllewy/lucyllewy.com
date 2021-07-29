@@ -110,7 +110,7 @@ This element has a property which holds a single item object as provided by the 
 
 The first extra line stamps the template into a variable with the item property passed through to the template under the same name. Finally, we add the stamped template into the shadow root with `appendChild()`.
 
-[I have immortalised the full code in a working example at Codepen](https://codepen.io/diddledan/pen/bBrxZR)
+[I have immortalised the full code in a working example at Codepen](https://codepen.io/diddledani/pen/bBrxZR)
 
 What now?
 ---------
