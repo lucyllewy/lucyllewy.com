@@ -1,6 +1,6 @@
-baseURL = "https://diddledan.com/"
+baseURL = "https://diddledani.com/"
 languageCode = "en-gb"
-title = "diddledan"
+title = "DiddleDani"
 theme = "uBlogger"
 
 # whether to use robots.txt
@@ -73,18 +73,18 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/diddledan"
+        url = "https://github.com/diddledani"
         title = "GitHub"
         weight = 6
     [languages.en.params]
       # site description
-      description = "About diddledan"
+      description = "About dANI"
       # site keywords
-      keywords = ["diddledan", "wsl", "snapcraft", "ubuntu"]
+      keywords = ["diddledani", "wsl", "snapcraft", "ubuntu"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "diddledan"
+        title = "DiddleDani"
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
@@ -124,11 +124,11 @@ enableEmoji = true
         [languages.en.params.home.profile]
           enable = true
           # Gravatar Email for preferred avatar in home page
-          gravatarEmail = "diddledan@gmail.com"
+          gravatarEmail = "dani@bowlhat.net"
           # URL of avatar shown in home page
           avatarURL = "/images/avatar.png"
           # title shown in home page (HTML format is supported)
-          title = "diddledan"
+          title = "DiddleDani"
           # subtitle shown in home page (HTML format is supported)
           subtitle = ""
           # whether to use typeit animation for subtitle
@@ -144,14 +144,14 @@ enableEmoji = true
           paginate = 6
       # Social config in home page
       [languages.en.params.social]
-        GitHub = "diddledan"
-        Linkedin = "diddledan"
-        Twitter = "diddledan"
+        GitHub = "diddledani"
+        Linkedin = "diddledani"
+        Twitter = "diddledani"
         Instagram = ""
-        Facebook = "diddledan"
-        Telegram = "diddledan"
+        Facebook = "diddledani"
+        Telegram = "diddledani"
         Medium = ""
-        Gitlab = "diddledan"
+        Gitlab = "diddledani"
         Youtubelegacy = ""
         Youtubecustom = ""
         Youtubechannel = ""
@@ -183,7 +183,7 @@ enableEmoji = true
         Kickstarter = ""
         Patreon = ""
         Steam = ""
-        Twitch = ""
+        Twitch = "diddledan"
         Strava = ""
         Skype = ""
         Whatsapp = ""
