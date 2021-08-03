@@ -10,6 +10,9 @@ enableGitInfo = true
 # whether to use emoji code
 enableEmoji = true
 
+[taxonomies]
+  series = 'series'
+
 [languages]
   [languages.en]
     weight = 1
@@ -221,7 +224,7 @@ enableEmoji = true
 
 [params]
   # uBlogger theme version
-  version = "1.3.X"
+  version = "2.0.X"
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
 

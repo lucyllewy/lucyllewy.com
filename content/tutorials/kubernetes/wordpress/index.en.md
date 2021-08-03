@@ -1,6 +1,10 @@
 ---
-title: "Wordpress"
-date: 2021-08-03T17:10:52+01:00
+title: "Install a WordPress system linked to the mysql service"
+date: 2021-08-03T17:04:01+01:00
 draft: true
+series: ["kubernetes"]
 ---
 
+## Other Chapters
+
+{{< series "kubernetes" >}}

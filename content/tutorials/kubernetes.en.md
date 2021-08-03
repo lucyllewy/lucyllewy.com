@@ -4,7 +4,6 @@ date: 2021-08-03T16:21:21+01:00
 draft: false
 ---
 
-
 ## Motivation
 
 Regular Twitch streamer, [Jeff Fritz (csharpfritz)](https://twitch.tv/csharpfritz) has been trying to configure a Kubernetes cluster using [K3s by Rancher Labs](https://k3s.io/) installation on six Raspberry Pis. They hit multiple roadblocks, such as trying to set up NFS-based Persistent Volumes in the cluster shared between the nodes, and accessing the dashboard. I took their frustration as a prompt to write up some tutorials that explain everything you need and why.
@@ -23,12 +22,4 @@ You should replace my username and node names in the instructions on these pages
 
 ## Chapters
 
-1. [Install K3s](k3s)
-   <!-- - [Install K3s](k3s) or -->
-   <!-- - [Install Microk8s](microk8s) -->
-1. [Install and access the kubernetes dashboard](dashboard)
-1. [Setup NFS Persistent Volumes](nfs)
-<!-- 1. [Install a MySQL Service with a persistent volume claim](mysql) -->
-<!-- 1. [Install a WordPress system linked to the mysql service](wordpress) -->
-<!-- 1. [Configure letsencrypt SSL and apply to WordPress](letsencrypt) -->
-<!-- 1. [Add and Configure GitHub Actions runner](github-actions) -->
+{{< series "kubernetes" >}}

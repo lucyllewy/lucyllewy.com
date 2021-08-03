@@ -1,12 +1,13 @@
 ---
 title: "Install and access the K8s Web UI Dashboard"
-date: 2021-08-03T17:10:32+01:00
+date: 2021-08-03T17:01:01+01:00
 draft: false
+series: ["kubernetes"]
 ---
 
 While I don't find the dashboard very useful for configuring anything in the cluster, it can be helpful to find a resource you've lost track of or discover resources you didn't know were there.
 
-Before following this guide, you should have an installed kubernetes cluster. If you don't, check out the guide how to [Install K3s](../k3s)<!-- or [Install Microk8s](microk8s) -->.
+Before following this guide, you should have an installed kubernetes cluster. If you don't, check out the guide how to [Install K3s](../1.a.k3s)<!-- or [Install Microk8s](../1.b.microk8s) -->.
 
 ## Installing the dashboard
 
@@ -137,3 +138,7 @@ Accessing the dashboard is tricky because you need to both access over HTTPS, or
 You should now be able to navigate to the `nodes` item in the left-hand menu of the UI to see your nodes:
 
 ![Screenshot of the Web UI Dashboard showing the nodes view](webui-nodes.png)
+
+## Other Chapters
+
+{{< series "kubernetes" >}}
