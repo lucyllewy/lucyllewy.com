@@ -65,7 +65,7 @@ enableEmoji = true
         pre = ""
         post = ""
         name = "Kubernetes"
-        url = "/kubernetes/"
+        url = "/tutorials/kubernetes/"
         title = "Self-hosted Kubernetes cluster tutorial"
         weight = 5
       [[languages.en.menu.main]]
