@@ -8,11 +8,9 @@ To get going with Kubernetes (K8s) we need to install a distribution of K8s. For
 
 You should replace my username and node names in the instructions below. For reference, my username is `dllewellyn`, and my nodes are named as follows:
 
-```plain
-k8s-1
-k8s-2
-k8s-3
-```
+- k8s-1
+- k8s-2
+- k8s-3
 
 ## Start the first node
 
