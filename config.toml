@@ -11,7 +11,9 @@ enableGitInfo = true
 enableEmoji = true
 
 [taxonomies]
+  categories = 'categories'
   series = 'series'
+  tags = 'tags'
 
 [languages]
   [languages.en]
