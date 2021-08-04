@@ -9,4 +9,6 @@ draft: false
 ![Dani's avatar](/diddledani.png "Dani's avatar")
 {{< /style >}}
 
+Dani has been granted the Microsoft MVP award for contributions to the WSL ecosystem along with various other Open Source activity.
+
 As a member of the Ubuntu Membership Board, Dani helps to verify and usher-in new [Ubuntu Members](https://wiki.ubuntu.com/Membership) who demonstrate a sustained and significant contribution to the Ubuntu Community.

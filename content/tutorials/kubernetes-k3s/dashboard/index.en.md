@@ -2,7 +2,7 @@
 title: "Install and access the K8s Web UI Dashboard"
 date: 2021-08-03T17:01:01+01:00
 draft: false
-series: ["kubernetes"]
+series: ["kubernetes_k3s"]
 ---
 
 While I don't find the dashboard very useful for configuring anything in the cluster, it can be helpful to find a resource you've lost track of or discover resources you didn't know were there.
@@ -139,6 +139,12 @@ You should now be able to navigate to the `nodes` item in the left-hand menu of 
 
 ![Screenshot of the Web UI Dashboard showing the nodes view](webui-nodes.png)
 
-## Other Chapters
+{{< ads circuit=false >}}
+
+## Other chapters in this series
+
+{{< series "kubernetes_k3s" >}}
+
+## Other series
 
 {{< series "kubernetes" >}}

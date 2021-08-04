@@ -64,13 +64,21 @@ enableEmoji = true
         title = ""
         weight = 4
       [[languages.en.menu.main]]
+        identifier = "tutorials"
+        pre = ""
+        post = ""
+        name = "Tutorials"
+        url = "/tutorials/all-series/"
+        title = "All tutorial series"
+        weight = 5
+      [[languages.en.menu.main]]
         identifier = "k8s"
         pre = ""
         post = ""
         name = "Kubernetes"
         url = "/tutorials/kubernetes/"
         title = "Self-hosted Kubernetes cluster tutorial"
-        weight = 5
+        weight = 6
       [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
@@ -78,7 +86,7 @@ enableEmoji = true
         name = "About"
         url = "/about/"
         title = ""
-        weight = 6
+        weight = 7
       [[languages.en.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
@@ -86,7 +94,7 @@ enableEmoji = true
         name = ""
         url = "https://github.com/diddledani"
         title = "GitHub"
-        weight = 7
+        weight = 8
     [languages.en.params]
       # site description
       description = "About Dani"
@@ -360,6 +368,12 @@ enableEmoji = true
       gtag = false
       # whether to anonymize IP
       anonymizeIP = true
+
+  [params.advertising]
+    enable = true
+    [[google]]
+      client = "ca-pub-8255474170399666"
+      slot = 2759344646
 
   # Cookie consent config
   [params.cookieconsent]
