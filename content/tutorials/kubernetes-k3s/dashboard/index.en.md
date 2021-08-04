@@ -79,7 +79,7 @@ Accessing the dashboard requires that we supply a token to authorise ourselves. 
       - The `namespace` should be set to the same name as that we used in the `dashboard-admin-user.yml` file so that K8s can find the correct service account, i.e. `kubernetes-dashboard`.
    - The `roleRef` configuration specifies the role that each user in the `subjects` list is assigned to.
       - The `apiGroup` field must be set to `rbac.authorization.k8s.io` to tell K8s that we're referencing a role-based access control role.
-      - The `kind` field should be set to `that the accounts in the `subjects` list are granted the role of `cluster-admin` - This is a default role in K8s.
+      - The `kind` field should be set to that of the accounts in the `subjects` list are granted the role of `cluster-admin` - This is a default role in K8s.
 
 1. Apply these configurations to the cluster with the following command:
    - K3s:
