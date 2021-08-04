@@ -371,7 +371,7 @@ enableEmoji = true
 
   [params.advertising]
     enable = true
-    [[google]]
+    [params.advertising.google]
       client = "ca-pub-8255474170399666"
       slot = 2759344646
 
