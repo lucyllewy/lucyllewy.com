@@ -3,7 +3,7 @@ title: "Install K3s"
 date: 2021-08-03T17:00:01+01:00
 draft: false
 series: ["kubernetes_k3s"]
-categories: [ubuntu-snapcraft]
+categories: [ubuntu-snapcraft, kubernetes]
 ---
 
 To get going with Kubernetes (K8s) we need to install a distribution of K8s. For this tutorial I will use [K3s by Rancher Labs](https://k3s.io).<!-- See the [Microk8s page](../mikrok8s) if you want to use the distribution of [K8s by Canonical distributed in the Snap Store](https://snapstats.org/snaps/microk8s). -->

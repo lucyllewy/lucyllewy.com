@@ -3,7 +3,7 @@ title: "Kubernetes with NFS Persistent Volumes"
 date: 2021-08-03T17:02:01+01:00
 draft: false
 series: ["kubernetes_k3s"]
-categories: [ubuntu-snapcraft]
+categories: [ubuntu-snapcraft, kubernetes]
 ---
 
 Using NFS persistent volumes is a relatively easy, for kubernetes, on-ramp to using the kubernetes storage infrastructure.

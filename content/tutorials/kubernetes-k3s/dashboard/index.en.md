@@ -3,7 +3,7 @@ title: "Install and access the K8s Web UI Dashboard"
 date: 2021-08-03T17:01:01+01:00
 draft: false
 series: ["kubernetes_k3s"]
-categories: [ubuntu-snapcraft]
+categories: [ubuntu-snapcraft, kubernetes]
 ---
 
 While I don't find the dashboard very useful for configuring anything in the cluster, it can be helpful to find a resource you've lost track of or discover resources you didn't know were there.
