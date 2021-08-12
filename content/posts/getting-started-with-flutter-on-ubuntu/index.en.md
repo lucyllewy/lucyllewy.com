@@ -3,7 +3,7 @@ title: "Getting started with Flutter on Ubuntu"
 date: 2021-02-02T19:37:47+00:00
 aliases: [/2021/02/getting-started-with-flutter-on-ubuntu]
 published: true
-categories: [ubuntu-snapcraft, development ]
+categories: [ubuntu-snapcraft, development]
 ---
 
 Recently there was an announcement from Ubuntu that the desktop team are working on a [replacement for the Ubiquity installer](https://discourse.ubuntu.com/t/refreshing-the-ubuntu-desktop-installer/20659). The really interesting part of the post by Martin Wimpress, head of the Ubuntu Desktop team at Canonical, is that the new installer will be built using Flutter.
