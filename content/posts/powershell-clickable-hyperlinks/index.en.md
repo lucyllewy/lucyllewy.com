@@ -42,7 +42,9 @@ If you forget to add a `Label` then the function will simply print the URL direc
 You can also use this as part of a Write-Output line:
 
 ```powershell
-Write-Output "Please visit the $(Format-Hyperlink -Uri "https://example.com" -Label "Example Website")!"
+Write-Output "`n`n`nPlease visit the $(Format-Hyperlink -Uri "https://example.com" -Label "Example Website")!`n`n`n"
 ```
+
+![Screenshot showing the output of the Write-Output powershell command](screenshot.png)
 
 This should also work in PowerShell on macOS and Linux, too.
