@@ -47,4 +47,4 @@ Write-Output "`n`n`nPlease visit the $(Format-Hyperlink -Uri "https://example.co
 
 ![Screenshot showing the output of the Write-Output powershell command](screenshot.png)
 
-This should also work in PowerShell on macOS and Linux, too.
+This should also work in PowerShell on macOS and Linux, too. (Note that it requires PowerShell 7+ for the escape sequences to be sent correctly)
