@@ -111,11 +111,11 @@ enableEmoji = true
         # modern SVG favicon to use in place of older style .png and .ico files
         svgFavicon = ""
         # Android browser theme color
-        themeColor = "#ffffff"
+        themeColor = "#FFAAAA"
         # Safari mask icon color
-        iconColor = "#5bbad5"
+        iconColor = "#FFAAAA"
         # Windows v8-10 tile color
-        tileColor = "#da532c"
+        tileColor = "#FFAAAA"
       # Search config
       [languages.en.params.search]
         enable = false
