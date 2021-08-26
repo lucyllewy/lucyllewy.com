@@ -434,7 +434,8 @@ enableEmoji = true
 [privacy]
   # privacy of the Google Analytics (replaced by params.analytics.google)
   [privacy.googleAnalytics]
-    # ...
+    anonymizeIP = true
+    respectDoNotTrack = true
   [privacy.twitter]
     enableDNT = true
   [privacy.youtube]
