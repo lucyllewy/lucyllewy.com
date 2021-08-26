@@ -147,7 +147,7 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = "dani@bowlhat.net"
           # URL of avatar shown in home page
-          avatarURL = "/images/avatar.png"
+          avatarURL = "/diddledani.png"
           # title shown in home page (HTML format is supported)
           title = "DiddleDani"
           # subtitle shown in home page (HTML format is supported)
@@ -379,12 +379,12 @@ enableEmoji = true
 
   # Cookie consent config
   [params.cookieconsent]
-    enable = false
+    enable = ture
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
-      message = ""
-      dismiss = ""
-      link = ""
+      message = "This site uses cookies for Google Analytics and Google Advertising"
+      dismiss = "Accept"
+      link = "/privacy"
 
 # Markup related configuration in Hugo
 [markup]
