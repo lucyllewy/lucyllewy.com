@@ -1,7 +1,7 @@
 ---
 title: "Spinnaker Tower Collapses"
 date: 2007-11-07 21:23:18
-published: true
+published: false
 categories: [random]
 wpid: 121
 ---

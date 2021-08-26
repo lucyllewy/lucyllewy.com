@@ -1,7 +1,7 @@
 ---
 title: "More AJAXy Goodness"
 date: 2009-03-11 01:18:57
-published: true
+published: false
 categories: [random]
 wpid: 281
 ---

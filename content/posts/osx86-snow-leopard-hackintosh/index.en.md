@@ -1,7 +1,7 @@
 ---
 title: "OSX86 Snow Leopard Hackintosh"
 date: 2010-02-18 23:26:53
-published: true
+published: false
 modified: 2010-05-20 17:12:55
 categories: [random]
 wpid: 621

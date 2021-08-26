@@ -1,7 +1,7 @@
 ---
 title: "Hackintosh"
 date: 2007-08-10 18:47:03
-published: true
+published: false
 categories: [random]
 wpid: 96
 ---
