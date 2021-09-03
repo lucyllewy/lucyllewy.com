@@ -11,4 +11,8 @@ draft: false
 
 Dani has been granted the Microsoft MVP award for contributions to the WSL ecosystem along with various other Open Source activity.
 
+{{< style "img { max-width:200px; }" >}}
+![Microsoft MVP Logo](mvp-logo.png "Microsoft MVP Logo")
+{{< /style >}}
+
 As a member of the Ubuntu Membership Board, Dani helps to verify and usher-in new [Ubuntu Members](https://wiki.ubuntu.com/Membership) who demonstrate a sustained and significant contribution to the Ubuntu Community.
