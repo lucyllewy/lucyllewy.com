@@ -140,6 +140,8 @@ You should now be able to navigate to the `nodes` item in the left-hand menu of 
 
 ![Screenshot of the Web UI Dashboard showing the nodes view](webui-nodes.png)
 
+{{< ads circuit=false >}}
+
 ## Other chapters in this series
 
 {{< series "kubernetes_k3s" >}}

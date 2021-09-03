@@ -56,6 +56,8 @@ ssh dllewellyn@k8s-3
 
 ![Screenshot of terminal output of installing the third node](node3.png)
 
+{{< ads circuit=false >}}
+
 ## Other chapters in this series
 
 {{< series "kubernetes_k3s" >}}
