@@ -5,8 +5,6 @@ draft: true
 series: ["kubernetes_k3s"]
 ---
 
-{{< ads circuit=false >}}
-
 ## Other chapters in this series
 
 {{< series "kubernetes_k3s" >}}

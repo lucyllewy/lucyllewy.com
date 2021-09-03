@@ -185,8 +185,6 @@ Now we will test that the provisioner is working by creating a test claim and a 
 
 The container should now download its image, run and exit. Left behind will be a new folder called `/mnt/storage-disk/default-test-claim-pvc-*` where the `*` is a UUID. Inside this folder should be a single file called `SUCCESS` indicating that the PVC successfully provisioned, mounted into the container, and the container was able to write a file.
 
-{{< ads circuit=false >}}
-
 ## Other chapters in this series
 
 {{< series "kubernetes_k3s" >}}

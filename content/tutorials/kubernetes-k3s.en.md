@@ -21,7 +21,6 @@ You should replace my username and node names in the instructions on these pages
 - k8s-2
 - k8s-3
 
-{{< ads circuit=false >}}
 
 ## Chapters
 
