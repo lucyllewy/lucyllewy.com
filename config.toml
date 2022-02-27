@@ -361,7 +361,7 @@ enableEmoji = true
 
   # Analytics config
   [params.analytics]
-    enable = true
+    enable = false
     # Google Analytics
     [params.analytics.google]
       # [UA-XXXXXXXX-X] google analytics code
