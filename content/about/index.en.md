@@ -9,7 +9,9 @@ draft: false
 ![Dani's avatar](/diddledani.png "Dani's avatar")
 {{< /style >}}
 
-Dani has been granted the Microsoft MVP award for contributions to the WSL ecosystem along with various other Open Source activity.
+Dani is available on [Telegram](https://t.me/diddledani) and Discord as diddledani#0782, and she uses the pronouns she/her.
+
+Dani has been granted the Microsoft MVP award for her contributions to the WSL ecosystem along with various other Open Source activity.
 
 {{< style "img { max-width:200px; }" >}}
 ![Microsoft MVP Logo](mvp-logo.png "Microsoft MVP Logo")
