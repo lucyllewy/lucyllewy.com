@@ -229,9 +229,9 @@ enableEmoji = true
         Bilibili = ""
         Email = ""
         RSS = true
-        #[languages.en.params.social.Mastodon]
-        #  id = ""
-        #  prefix = "https://mastodon.technology/"
+        [languages.en.params.social.Mastodon]
+          id = "diddledani"
+          prefix = "https://mastodon.lol/"
 
 [params]
   # uBlogger theme version
