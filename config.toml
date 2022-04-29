@@ -380,7 +380,7 @@ enableEmoji = true
 
   # Cookie consent config
   [params.cookieconsent]
-    enable = true
+    enable = false
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
       message = "This site uses cookies for Google Analytics and Google Advertising"

@@ -3,6 +3,7 @@ title: "Twitodon - Find your Twitter friends on Mastodon"
 date: 2022-04-29T09:00:00+01:00
 draft: false
 categories: [development]
+tags: [mastodon, twitter, migration, twitocalypse, Elon Musk]
 ---
 
 ## The Twitocalypse
