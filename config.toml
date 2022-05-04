@@ -230,7 +230,7 @@ enableEmoji = true
         Email = ""
         RSS = true
         [languages.en.params.social.Mastodon]
-          id = "diddledani"
+          id = "@diddledani"
           prefix = "https://mastodon.lol/"
 
 [params]
