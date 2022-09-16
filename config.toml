@@ -147,7 +147,7 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = "diddledanillew@gmail.com"
           # URL of avatar shown in home page
-          avatarURL = "/diddledani.png"
+          avatarURL = "https://www.gravatar.com/avatar/51382eba4e98a66aae28db685d05775d?s=240&d=mp"
           # title shown in home page (HTML format is supported)
           title = "diddledani: Dani Llewellyn"
           # subtitle shown in home page (HTML format is supported)
