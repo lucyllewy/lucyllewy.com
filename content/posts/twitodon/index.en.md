@@ -13,7 +13,7 @@ When it comes to the news in April 2022 about Twitter agreeing to be purchased b
 
 To alleviate this problem I have spent the past 48 hours writing a replacement for the Mastodon Bridge entirely of my own design and implementation. The process is simple:
 
-- Navigate to my [Twitodon website](https://twitodon.erhmahgherd.workers.dev/)
+- Navigate to my [Twitodon website](https://twitodon.com/)
 - Click the Login With Twitter link and authorize the application
 - Click the Login With Mastodon link and again authorize the application
 - Finally, click the "Click Here to download the CSV file" link to download a CSV file that can be imported to your Mastodon account.
