@@ -51,4 +51,4 @@ A few examples I've tried are:
 
 - - - - - -
 
-[My source code is published at GitHub](https://github.com/diddledani/awesomify/).
+[My source code is published at GitHub](https://github.com/lucyllewy/awesomify/).

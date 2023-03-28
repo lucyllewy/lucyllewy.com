@@ -1,9 +1,9 @@
 ---
-title: "Privacy Policy for DiddleDani"
+title: "Privacy Policy for Lucy Llewellyn"
 draft: false
 ---
 
-At my site, accessible from https://diddledani.com, one of my main priorities is the privacy of my visitors. This Privacy Policy document contains types of information that is collected and recorded by my site and how I use it.
+At my site, accessible from https://lucyllewy.com, one of my main priorities is the privacy of my visitors. This Privacy Policy document contains types of information that is collected and recorded by my site and how I use it.
 
 If you have additional questions or require more information about my Privacy Policy, do not hesitate to contact me.
 
@@ -34,12 +34,12 @@ I use the information I collect in various ways, including to:
 My site follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and are a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
 
 ## Google DoubleClick DART Cookie
-Google is a third-party vendor on my site. It also uses cookies, known as DART cookies, to serve ads to my site visitors based upon their visit to diddledani.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – https://policies.google.com/technologies/ads
+Google is a third-party vendor on my site. It also uses cookies, known as DART cookies, to serve ads to my site visitors based upon their visit to lucyllewy.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – https://policies.google.com/technologies/ads
 
 ## Advertising Partners Privacy Policies
 You may consult this list to find the Privacy Policy for each of my advertising partners.
 
-Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on diddledani.com, which are sent directly to users' browsers. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
+Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on lucyllewy.com, which are sent directly to users' browsers. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
 
 Note that I have no access to or control over these cookies that are used by third-party advertisers.
 

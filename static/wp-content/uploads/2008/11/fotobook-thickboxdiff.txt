@@ -30,7 +30,7 @@ diff -Npr fotobook/fotobook.php fotobook copy/fotobook.php
     $hidden_top = ''; $hidden_bottom = '';
 !   $renderstyle = get_option('fb_style');
 !     // NOTE: prevent multiple database queries by storing the value programatically above (1 db query instead of 2).
-!   for($i = 1; $i < $first_photo; $i++) { // FIXED by Fremen (diddledan): was showing $first_photo here (invisible) _and_ in the visible listing
+!   for($i = 1; $i < $first_photo; $i++) { // FIXED by LucyLlewy: was showing $first_photo here (invisible) _and_ in the visible listing
 !     $hidden_top .= "<a href=\"{$photos[$i]['src_big']}\" ";
 !       // NOTE: below sets thickbox style as an option, defaulting to the original lightbox method
 !     $hidden_top .= (($renderstyle == 'thickbox') ? "rel=\"thickboxfotobook\" class=\"thickbox\"" : "rel=\"lightbox[fotobook]\"");

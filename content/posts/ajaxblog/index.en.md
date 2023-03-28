@@ -24,8 +24,8 @@ Here are the instructions:
 ```javascript
 /**
  * AJAXBlog - intercepts anchor clicks and requests the document asynchronously
- * Copyright (C) 2010  Dani Llewellyn
- * ( dani@bowlhat.net - https://bowlhat.net/ )
+ * Copyright (C) 2010  Lucy Llewellyn
+ * ( lucyllewy@gmail.com - https://bowlhat.net/ )
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU Affero General Public License as

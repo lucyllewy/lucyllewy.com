@@ -6,7 +6,7 @@ categories: [random]
 wpid: 791
 ---
 
-I've not posted about this before now, even though the network has been operational for a few months now. I am a founding member of a new Internet Relay Chat (IRC) Network that allows anybody to talk with friends for free. The network is comprised of four geographically diverse servers, two of which are my own. The network is run by Nicholas "Cubezero" Weightman, David "Wellard" Fullard, and Myself (Dani "Fremen" Llewellyn).
+I've not posted about this before now, even though the network has been operational for a few months now. I am a founding member of a new Internet Relay Chat (IRC) Network that allows anybody to talk with friends for free. The network is comprised of four geographically diverse servers, two of which are my own. The network is run by Nicholas "Cubezero" Weightman, David "Wellard" Fullard, and Myself (Lucy Llewellyn).
 
 We operate using the open source InspIRCd software as the main controller along with "services" provided by the Anope software. (Services provide the facility to maintain control over your own name and rooms while you are not connected to the network.) We have tried as best we can to create a highly redundant system that allows for any one server to go offline without adversely affecting the chat experience.
 

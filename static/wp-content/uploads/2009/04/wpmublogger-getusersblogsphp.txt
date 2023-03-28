@@ -1,11 +1,11 @@
 <?php
 
-add_filter ( 'xmlrpc_methods', 'attach_fremen_xmlrpc' );
-function attach_fremen_xmlrpc($methods) {
-	$methods['blogger.getUsersBlogs'] = 'fremen_blogger_getUsersBlogs';
+add_filter ( 'xmlrpc_methods', 'attach_lucyllewy_xmlrpc' );
+function attach_lucyllewy_xmlrpc($methods) {
+	$methods['blogger.getUsersBlogs'] = 'lucyllewy_blogger_getUsersBlogs';
 	return $methods;
 }
-function fremen_blogger_getUsersBlogs($args) {
+function lucyllewy_blogger_getUsersBlogs($args) {
 	// this is all taken from wp_getUsersBlogs() from xmlrpc.php
 	global $current_site, $wpdb;
 	

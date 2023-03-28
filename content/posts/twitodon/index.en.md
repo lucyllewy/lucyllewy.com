@@ -28,4 +28,4 @@ Twitodon does not monitor for updates. Once you've downloaded your CSV I advise 
 
 ## Sponsor me
 
-If you find the service useful, please consider donating via [GitHub Sponsors](https://github.com/sponsors/diddledani) to help me pay for what might become quite an expensive-to-run service.
+If you find the service useful, please consider donating via [GitHub Sponsors](https://github.com/sponsors/lucyllewy) to help me pay for what might become quite an expensive-to-run service.
