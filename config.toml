@@ -147,7 +147,7 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = "lucyllewy@gmail.com"
           # URL of avatar shown in home page
-          avatarURL = "https://www.gravatar.com/avatar/51382eba4e98a66aae28db685d05775d?s=240&d=mp"
+          avatarURL = "https://s.gravatar.com/avatar/ca118f6c4ae5ed764b50e0a61cd105d7?s=240&d=mp"
           # title shown in home page (HTML format is supported)
           title = "Lucy Llewellyn"
           # subtitle shown in home page (HTML format is supported)
@@ -176,7 +176,7 @@ enableEmoji = true
         Gitlab = "lucyllewy"
         Youtubelegacy = ""
         Youtubecustom = ""
-        Youtubechannel = ""
+        Youtubechannel = "UC3SP7M3OYBomyItx1XYQRlA"
         Tumblr = ""
         Quora = ""
         Keybase = ""
