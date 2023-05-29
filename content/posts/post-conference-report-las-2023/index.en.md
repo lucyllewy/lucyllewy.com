@@ -8,7 +8,7 @@ I was privileged to attent the Linux App Summit 2023, between April 21st and 23r
 
 ## The day before...
 
-My journey to Brno for the conference began on Friday with a train up to London and a flight into Prague. Thankfully I'd arranged to fly on the same place as a good friend who was also attending the conference on behalf of Canonical. They hired a car to get us from Prague to Brno. The drive was longer than the flight took 🤦🏻‍♀️ We had fun anyway as we also acquired a couple of other travel-mates, who were also attending the conference, while we were at Prague airport. Lots of chitchat ensured during the 3 hour drive, but we discovered that our travel companions have no taste in music or films 🤭 I mean, how can you say Top Gun isn't an amazing movie, and that 80s songs aren't top tier music?!
+My journey to Brno for the conference began on Friday with a train up to London and a flight into Prague. Thankfully I'd arranged to fly on the same plane as a good friend who was also attending the conference on behalf of Canonical. They hired a car to get us from Prague to Brno. The drive was longer than the flight took 🤦🏻‍♀️ We had fun anyway as we also acquired a couple of other travel-mates, who were also attending the conference, while we were at Prague airport. Lots of chitchat ensured during the 3 hour drive, but we discovered that our travel companions have no taste in music or films 🤭 I mean, how can you say Top Gun isn't an amazing movie, and that 80s songs aren't top tier music?!
 
 ![Igor Ljubuncic driving us all to Brno from Prague](igor-goes-driving-in-his-car.jpg)
 
