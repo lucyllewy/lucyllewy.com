@@ -1,14 +1,14 @@
 ---
 title: "Post Conference Report Las 2023"
 date: 2023-05-26T14:33:55+02:00
-draft: true
+draft: false
 ---
 
 I was privileged to attent the Linux App Summit 2023, between April 21st and 23rd 2023, where I joined with Merlijn Sebrechts to co-present a shared talk about our work on Sommelier as part of the Snapcrafters Project. During the conference we got to meet and talk with a wide range of influential and knowledgeable people within the Linux desktop comunity with representatives from both KDE and Gnome present among many others. Lots of friends have been made, and old friends re-connected with.
 
 ## The day before...
 
-My journey to Brno for the conference began on Friday with a train up to London and a flight into Prague. Thankfully I'd arranged to fly on the same place as a good friend who was also attending the conference on behalf of Canonical. They hired a car to get us from Prague to Brno. The drive was longer than the flight took 🤦🏻‍♀️ We had fun anyway as we also acquired a couple of other travel-mates, who were also attending the conference, while we were at Prague airport. Lots of chitchat ensured during the 3 hour drive, but we discovered that our travel companions have no taste in music or films 🤭 I mean, how can you say Top Fun isn't an amazing movie, and that 80s songs aren't top tier music?!
+My journey to Brno for the conference began on Friday with a train up to London and a flight into Prague. Thankfully I'd arranged to fly on the same place as a good friend who was also attending the conference on behalf of Canonical. They hired a car to get us from Prague to Brno. The drive was longer than the flight took 🤦🏻‍♀️ We had fun anyway as we also acquired a couple of other travel-mates, who were also attending the conference, while we were at Prague airport. Lots of chitchat ensured during the 3 hour drive, but we discovered that our travel companions have no taste in music or films 🤭 I mean, how can you say Top Gun isn't an amazing movie, and that 80s songs aren't top tier music?!
 
 ![Igor Ljubuncic driving us all to Brno from Prague](igor-goes-driving-in-his-car.jpg)
 
@@ -30,7 +30,7 @@ During the first day we opened the conference with opening remarks for ten minut
 
 The talks ranged from governmental policy and lawmaking discussions such as the keynote [Regulatory state of play of Open Source in the EU](https://conf.linuxappsummit.org/event/5/sessions/6/), to interesting future directions including [UnifiedPush - Push notifications for Linux](https://conf.linuxappsummit.org/event/5/contributions/149/) and a panel discussion asking [What's next for the Linux App Ecosystem?](https://conf.linuxappsummit.org/event/5/contributions/151/)
 
-My main focus on the first day was attending Igor's talk [Snap performance optimization - The Firefox case study](https://conf.linuxappsummit.org/event/5/contributions/152/) detailing how the team behind bringing Firefox to the Snap Store have brought startup and performance metrics for the snap to be on-par with firefox when installed natively (i.e. not in a snap or other package format such as Flatpak.) This talk also included helpful tips on how to analyse and optimise a snap that you make yourself.
+My main focus on the first day was attending Igor's talk [Snap performance optimization - The Firefox case study](https://conf.linuxappsummit.org/event/5/contributions/152/) detailing how the team behind bringing Firefox to the Snap Store have brought startup and performance metrics for the snap to be on-par with Firefox when installed natively, using the Debian package. This talk also included helpful tips on how to analyse and optimise a snap that you make yourself.
 
 ![Igor getting ready to present the snap performance optimization Firefox Case Study](snap-performance-optimization-the-firefox-case-study.jpg)
 
@@ -42,7 +42,7 @@ At the end of day one we all got together outside the venue for a combined Fedor
 
 ![It was a tasty tasty chocolate cake with vanilla filling](tasty-tasty-chocolate-cake.jpg)
 
-Not to be outdone at the release party, SuSE were handing out free as in beer merchandise to help keep us aware the Linux ecosystem is much more wide ranging beyomd Fedora and Ubuntu. The increassed awareness of SuSE doesn't go amiss either 🤭
+Not to be outdone at the release party, SuSE were handing out free as in beer merchandise to help keep us aware the Linux ecosystem is much more wide ranging beyomd Fedora and Ubuntu. The increased awareness of SuSE doesn't go amiss either 🤭
 
 ![Free as in SuSE beer](free-as-in-suse-beer.jpg)
 
@@ -58,7 +58,7 @@ Just before we all headed to lunch on day two there was enough time to take a co
 
 ![Aerial photograph of the LAS attendees from a drone](las-group-photo-of-attendees-from-above.jpg)
 
-For the afternoon I spent some of the time sitting at the Ubuntu booth again, still trying to regather as much wherewithal as I could, and watching the lightning talks and closing remarks in the main track room. From my exhausted state I unfortunately dont remember a lot about the second days goings on.
+For the afternoon I spent some of the time sitting at the Ubuntu booth again, still trying to regather as much wherewithal as I could, and watching the lightning talks and closing remarks in the main track room. From my exhausted state I unfortunately don't remember a lot about the second day's goings on.
 
 After the closing remarks it was time for everyone to head their separate ways back home. I recall getting lots of hugs and compliments on Merlijn and my talk as we all drifted away for evening meals and travelling.
 
