@@ -147,7 +147,7 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = "lucyllewy@gmail.com"
           # URL of avatar shown in home page
-          avatarURL = "https://s.gravatar.com/avatar/ca118f6c4ae5ed764b50e0a61cd105d7?s=240&d=mp"
+          avatarURL = "https://1.gravatar.com/avatar/9586299e65b7e24e50492669c9dd820f5d12de42945342945a82da3ff2c5fcf6?size=512"
           # title shown in home page (HTML format is supported)
           title = "Lucy Llewellyn"
           # subtitle shown in home page (HTML format is supported)
