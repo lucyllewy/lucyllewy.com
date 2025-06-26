@@ -373,7 +373,7 @@ enableEmoji = true
       anonymizeIP = true
 
   [params.advertising]
-    enable = true
+    enable = false
     [params.advertising.google]
       client = "ca-pub-8255474170399666"
       slot = 2759344646
