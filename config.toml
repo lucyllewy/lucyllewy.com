@@ -169,7 +169,7 @@ enableEmoji = true
         Linkedin = "lucyllewy"
         Twitter = "lucyllewy"
         Instagram = ""
-        Facebook = "lucyllewy"
+        Facebook = ""
         Telegram = "lucyllewy"
         Discord = ""
         Medium = ""
@@ -317,7 +317,7 @@ enableEmoji = true
     [params.page.share]
       enable = true
       Twitter = true
-      Facebook = true
+      Facebook = false
       Linkedin = false
       Whatsapp = false
       Pinterest = false
